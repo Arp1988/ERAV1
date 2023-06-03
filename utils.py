@@ -1,8 +1,9 @@
+# CODE BLOCK 9
+
 from tqdm import tqdm
 
 def GetCorrectPredCount(pPrediction, pLabels):
   return pPrediction.argmax(dim=1).eq(pLabels).sum().item()
-# CODE BLOCK 9
 
 def train(model, device, train_loader, optimizer, criterion):
   model.train()
