@@ -1,5 +1,9 @@
 # CODE BLOCK 7
 
+import torch
+import torch.nn as nn
+import torch.nn.functional as F
+
 class Net(nn.Module):
     #This defines the structure of the NN.
     def __init__(self):
