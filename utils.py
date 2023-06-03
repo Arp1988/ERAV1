@@ -1,3 +1,8 @@
+import torch
+import torch.optim as optim
+import matplotlib.pyplot as plt
+from torchvision import datasets, transforms
+
 # CODE BLOCK 9
 
 from tqdm import tqdm
