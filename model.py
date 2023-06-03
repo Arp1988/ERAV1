@@ -1,3 +1,5 @@
+# CODE BLOCK 7
+
 class Net(nn.Module):
     #This defines the structure of the NN.
     def __init__(self):
